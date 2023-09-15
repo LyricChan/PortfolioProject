@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f8fafc;
 }
 
 html {
@@ -160,6 +161,7 @@ section {
 
 .section-container,
 #profile {
+  position: relative;
   display: flex;
 }
 
@@ -287,7 +289,7 @@ section {
 } */
 
 #about img {
-  cursor: default;
+  cursor: pointer;
 }
 /* Experience Section */
 #experience {
